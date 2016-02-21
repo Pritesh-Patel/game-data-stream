@@ -1,0 +1,5 @@
+[0m[[0minfo[0m] [0m[32mValidatorSpec:[0m[0m
+[0m[[0minfo[0m] [0m[32mValidator [0m[0m
+[0m[[0minfo[0m] [0m[32m- should remove events past maxtime[0m[0m
+[0m[[0minfo[0m] [0m[32m- should remove events that score past the max limit[0m[0m
+[0m[[0minfo[0m] [0m[32m- should remove inconsistent totals against points scored[0m[0m

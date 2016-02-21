@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="game-data-stream$sources_2.11"
+		revision="1.0"
+		conf="compile-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, ensime-internal"
+		date="20160219193849"/>
+	<dependencies>
+		<module organisation="org.scodec" name="scodec-bits_2.11">
+			<revision name="1.1.0" status="release" pubdate="20160209033501" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/scodec/scodec-bits" extra-info.apiURL="http://scodec.org/api/scodec-bits/1.1.0/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+				<license name="Three-clause BSD-style" url="https://github.com/scodec/scodec-bits/blob/master/LICENSE"/>
+				<metadata-artifact status="no" details="" size="2993" time="0" location="/home/pritesh/.ivy2/cache/org.scodec/scodec-bits_2.11/ivy-1.1.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scodec/scodec-bits_2.11/1.1.0/scodec-bits_2.11-1.1.0.pom"/>
+				<caller organisation="default" name="game-data-stream$sources_2.11" conf="compile-internal, compile, provided, optional" rev="1.1.0" rev-constraint-default="1.1.0" rev-constraint-dynamic="1.1.0" callerrev="1.0" extra-info.apiURL="http://scodec.org/api/scodec-bits/1.1.0/"/>
+				<artifacts>
+					<artifact name="scodec-bits_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="33417" time="0" location="/home/pritesh/.ivy2/cache/org.scodec/scodec-bits_2.11/srcs/scodec-bits_2.11-1.1.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scodec/scodec-bits_2.11/1.1.0/scodec-bits_2.11-1.1.0-sources.jar"/>
+					</artifact>
+					<artifact name="scodec-bits_2.11" type="jar" ext="jar" status="no" details="" size="281827" time="0" location="/home/pritesh/.ivy2/cache/org.scodec/scodec-bits_2.11/jars/scodec-bits_2.11-1.1.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scodec/scodec-bits_2.11/1.1.0/scodec-bits_2.11-1.1.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalactic" name="scalactic_2.11">
+			<revision name="2.2.6" status="release" pubdate="20160105195436" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scalatest.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="0">
+				<license name="the Apache License, ASL Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2964" time="0" location="/home/pritesh/.ivy2/cache/org.scalactic/scalactic_2.11/ivy-2.2.6.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scalactic/scalactic_2.11/2.2.6/scalactic_2.11-2.2.6.pom"/>
+				<caller organisation="default" name="game-data-stream$sources_2.11" conf="compile-internal, compile, provided, optional" rev="2.2.6" rev-constraint-default="2.2.6" rev-constraint-dynamic="2.2.6" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="scalactic_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="242" time="0" location="/home/pritesh/.ivy2/cache/org.scalactic/scalactic_2.11/srcs/scalactic_2.11-2.2.6-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scalactic/scalactic_2.11/2.2.6/scalactic_2.11-2.2.6-sources.jar"/>
+					</artifact>
+					<artifact name="scalactic_2.11" type="jar" ext="jar" status="no" details="" size="426520" time="0" location="/home/pritesh/.ivy2/cache/org.scalactic/scalactic_2.11/jars/scalactic_2.11-2.2.6.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scalactic/scalactic_2.11/2.2.6/scalactic_2.11-2.2.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
