@@ -1,6 +1,6 @@
 #Game Data Stream
 
-A Scala project that reads in binary data, processes it and attempts to validate the date using various validation rules.
+A Scala project that reads in binary data, processes it and attempts to validate the data using various validation rules.
 
 To run:
 
